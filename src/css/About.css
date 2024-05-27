@@ -1,0 +1,87 @@
+.conteiner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Arial, sans-serif";
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.member-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+.name {
+    font-size: 1.8rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #777;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.links-container i {
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.links-container i:hover {
+    color: #000;
+}
+
+.divisor {
+    margin: 40px 0;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.about-site {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-site .title1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.about-site .description {
+    font-size: 1rem;
+    color: #555;
+}
